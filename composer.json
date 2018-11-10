@@ -1,0 +1,24 @@
+{
+    "name": "davesweb/backpack-helpers",
+    "description": "A set of classes to make using Laravel Backpack more intuitive.",
+    "type": "library",
+    "require": {
+        "php": "^7.2.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.13",
+        "phpro/grumphp": "^0.14.2",
+        "phpunit/phpunit": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Davesweb\\BackpackHelpers\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Davesweb\\BackpackHelpers\\Tests\\": "tests/"
+        }
+    },
+    "license": "MIT"
+}
