@@ -1,6 +1,6 @@
 <?php
 
-namespace Davesweb\BackpackHelpers\BackpackColumns;
+namespace Davesweb\BackpackHelpers\Columns;
 
 abstract class Column
 {
